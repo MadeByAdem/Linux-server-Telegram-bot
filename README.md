@@ -178,13 +178,15 @@ It's ideal if you have a single server running, with certain custom services and
 
         **Important:** The bot needs admin privileges to use certain features.
 
+        **Tip:** Add the linux_bot to the `monitoring_services.txt` so that the bot can monitor it as well.
+
 7. **Start services**
     ```bash
     sudo systemctl daemon-reload
-    sudo systemctl enable nest_monitoring.service
-    sudo systemctl enable nest_bot.service
-    sudo systemctl start nest_bot.service
-    sudo systemctl start nest_monitoring.service
+    sudo systemctl enable linux_monitoring.service
+    sudo systemctl enable linux_bot.service
+    sudo systemctl start linux_bot.service
+    sudo systemctl start linux_monitoring.service
     ```
 
 ## Usage
