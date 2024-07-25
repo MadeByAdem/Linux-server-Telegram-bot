@@ -28,6 +28,8 @@ It's ideal if you have a single server running, with certain custom services and
 - Check system information
 - Reboot the server
 
+<center><img src="./example.jpg" alt="Example Linux Telegram Bot" width="300px"></center>
+
 ## Table of Contents
 1. [Linux server Telegram bot](#linux-server-telegram-bot)
 2. [Features](#features)
