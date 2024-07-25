@@ -1,0 +1,4 @@
+/your/path/to/certain/logs
+/your/path/to/certain/logs
+/your/path/to/certain/logs
+/your/path/to/certain/logs
