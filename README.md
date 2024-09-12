@@ -127,7 +127,7 @@ It's ideal if you have a single server running, with certain custom services and
     After=network.target
 
     [Service]
-    ExecStart=/your/path/to/linux_bot/venv/bin/python /your/path/to/linux_bot/monitoring.py
+    ExecStart=/your/path/to/linux_bot/venv/bin/python /your/path/to/linux_bot/linux_bot.py
     WorkingDirectory=/your/path/to/linux_bot
     User=root
     Restart=always

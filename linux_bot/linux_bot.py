@@ -866,7 +866,7 @@ def handle_logs_menu(message):
 @bot.message_handler(func=lambda message: message.chat.id in ALLOWED_USERS and message.text.startswith("📜 Log: "))
 def handle_logs(message):
     logging.info(f"User {message.from_user.first_name} requested log file {message.text.split(': ')[1]}")
-    log_directory = f"{message.text.split(': ')[1]}/logs/"
+    log_directory = f"{message.text.split(': ')[1]}/"
     logging.info(f"Log directory: {log_directory}")
 
     # List all files in the log directory
